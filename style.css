@@ -1,0 +1,577 @@
+/*
+*********************************Screenshot 4 (SMARTPHONES)**********************************************
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: LinikSans-ExtraLight, sans-serif;
+    font-size: small;
+}
+
+@font-face {
+    font-family: LinikSans-Medium ;
+    src: url("LinikSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: LinikSans-Regular ;
+    src: url("LinikSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: LinikSans ;
+    font-weight: bold;
+    src: url("LinikSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: LinikSans-ExtraLight ;
+    src: url("LinikSans-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: LinikSans-Light ;
+    src: url("LinikSans-Light.ttf");
+}
+
+p {
+    line-height: 170%;
+}
+
+.icons {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c3fdfd;
+}
+
+nav {
+    background-color: #9690fc;
+    padding-bottom: 40px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu__titles {
+    border-top: #c3c2e1 solid 1px;
+    margin-right: 10px;
+    margin-left: 5px;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: LinikSans-Medium, sans-serif;
+    font-size: 14px;
+
+}
+
+.menu__titles:focus {
+    color: red;
+}
+
+.dropbtn::after {
+    content: " ▼";
+    float: right;
+    font-size: xx-small;
+
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.show {
+    display: block;
+    background-color: #c3c2e1;
+}
+
+.sous {
+    list-style: none;
+}
+
+.sous li a {
+    font-family: LinikSans-Medium, sans-serif;
+    font-size: 14px;
+    margin: 0 0;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.sous li a:hover {
+    background-color: white;
+    color: red;
+}
+
+.menu__logo {
+    background-color: #9690fc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    background-color: #9690fc;
+    width: 80%;
+}
+
+/***************************Slideshow**************************/
+.slide {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 2% 0;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    background-color: #c3fdfd;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+#clip1 {
+    position: absolute;
+    clip: rect(0, 61px, 90px, 0);
+}
+
+#clip2 {
+    position: absolute;
+    clip: rect(0, 150px, 61px, 61px);
+}
+
+.dots-container {
+    background-color: #c3fdfd;
+    padding-bottom: 1%;
+}
+
+.dot:hover {
+    content: url("maquette_responsive-assets/assets/dot2.png");
+    padding-bottom: 1px;
+}
+
+.dot:active {
+    content: url("maquette_responsive-assets/assets/dot3.png");
+}
+
+/******************************Main articles*********************/
+
+.main__article {
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: LinikSans, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: #c3c2e1 solid 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5% 0;
+    margin-bottom: 10%;
+    font-size: 22px;
+    font-family: LinikSans-Medium, sans-serif;
+}
+
+.flag {
+    border: darkgrey solid 1px;
+    border-radius: 4px;
+    padding: 4px;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.flag--countries {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flag__titles {
+    margin: 5% auto 10% auto;
+    font-family: LinikSans-Medium, sans-serif;
+    font-size: 18px;
+}
+
+#flag--brazil, #flag--algeria {
+    display: none;
+}
+
+.main__article--title {
+    background-color: #9690fc;
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main__article--content {
+    margin: 5% 1%;
+}
+
+.togg {
+    color: red;
+    cursor: pointer;
+}
+
+.png {
+    float: left;
+    padding-right: 5%;
+}
+
+.why {
+    padding: 0 1% 10% 1%;
+}
+
+.about {
+    background-color: #c3fdfd;
+    padding: 15% 0;
+}
+
+.about__titles {
+    border-bottom: #c3c2e1 solid 1px;
+    padding: 3% 0;
+    margin: 5% 5px 8%;
+    font-family: LinikSans-Light, sans-serif;
+    font-size: 23px;
+}
+
+button {
+    background-color: #7aae6b;
+    color: white;
+    border: #5b6e63 solid 1px;
+    padding: 3% 6%;
+    border-radius: 4%;
+    margin-top: 3%;
+    font-family: LinikSans-Regular, sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #9690fc;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+    margin: 0 1.2em 0 0;
+    font-family: LinikSans-Medium, sans-serif;
+    line-height: 20px;
+}
+
+footer ul {
+    padding-top: 10%;
+}
+
+footer p {
+    color: #3c572e;
+    font-size: smaller;
+}
+
+/**********************************Screenshot 3************************************************/
+
+@media screen and (min-width: 614px) and (max-width: 847px) {
+    .icons {
+        padding-left: 15%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    ul {
+        margin: 0 15%;
+    }
+
+    .sous {
+        margin: 0;
+    }
+
+    section {
+        margin: 0 15%;
+    }
+
+    main {
+        margin: 0 15%;
+    }
+
+    .carousel {
+        padding: 5% 15%;
+    }
+
+    h2 {
+        padding-right: 45px;
+    }
+
+    .about {
+        padding: 3% 15%;
+        padding-bottom: 13%;
+    }
+
+    #travel {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 2%;
+        margin-bottom: 3%;
+    }
+
+    #copyright {
+        margin: 0 15%;
+    }
+
+    footer li {
+        margin: 0 9% 0 0;
+    }
+
+    .about__p {
+        display: table-cell;
+    }
+}
+
+/**********************************Screenshot 2 (TABLET)*****************************************/
+
+@media screen and (min-width: 847px) {
+    .icons {
+        padding-left: 5%;
+    }
+
+    .menu__logo {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        width: 35%;
+        padding-left: 5%;
+    }
+
+    .menu__titles {
+        border: none;
+        padding-left: 0;
+        padding-right: 2%;
+        display: inline;
+    }
+
+    .sous {
+        position: absolute;
+    }
+
+    ul {
+        margin: 0 5%;
+    }
+
+    .dropbtn::after {
+        content: " ᐯ";
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        padding-left: 5px;
+        float: none;
+    }
+
+    .carousel {
+        padding: 4% 5%;
+    }
+
+    #flag--brazil, #flag--algeria {
+        display: block;
+    }
+
+    .destination {
+        display: flex;
+    }
+
+    main {
+        margin: 0 5%;
+    }
+
+    #flag--france, #flag--brazil {
+        margin-right: 3%;
+    }
+
+    .main {
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .main__article {
+        margin-top: 0;
+    }
+
+    h2 {
+        padding-right: 0;
+        font-size: 15px;
+        line-height: 1.7em;
+    }
+
+    .main__article {
+        margin-right: 2.5%;
+        padding: 0;
+    }
+
+    h1 {
+        padding-top: 3%;
+        padding-bottom: 2%;
+        margin-bottom: 4%;
+    }
+
+    .flag__titles {
+        margin-bottom: 15%;
+    }
+
+    .about-why {
+        display: flex;
+    }
+
+    .about {
+        padding: 0% 5% 10% 5%;
+    }
+
+    .about__about--article {
+        width: 50%;
+    }
+
+    .about__why--article {
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    footer {
+        padding: 0 5%;
+    }
+
+    footer ul {
+        padding: 2% 0;
+        margin: 0;
+    }
+
+    footer nav {
+        padding-bottom: 0;
+    }
+
+    #copyright {
+        margin: 0;
+        padding-bottom: 5%;
+    }
+}
+
+/*************************************Screenshot 1 (LAPTOP/DESKTOP)******************************************/
+
+@media screen and (min-width: 1025px) {
+
+    .icons {
+        padding-left: 20%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .menu__logo {
+        display: block;
+        padding-left: 20%;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        background-color: #9690fc;
+    }
+
+    nav {
+        padding-bottom: 0;
+        display: flex;
+        align-items: center;
+        padding-right: 20%;
+    }
+
+    ul {
+        display: block ruby;
+        margin: 0;
+    }
+
+    .menu__titles {
+        padding-right: 0;
+        margin-right: 2%;
+        display: block;
+
+    }
+
+    .carousel {
+        padding: 1% 20%;
+    }
+
+    main {
+        margin: 0 20%;
+    }
+
+    .about {
+        padding: 0 20% 3%;
+    }
+
+    #travel {
+        padding: 0;
+        margin: 0 0 2%;
+    }
+
+    footer {
+        padding: 0 20%;
+    }
+
+    #copyright {
+        padding-top: 3%;
+    }
+
+    .slideshow-container {
+        padding: 0 20%;
+    }
+
+    .next {
+        right: 20%;
+    }
+}
